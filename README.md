@@ -7,7 +7,8 @@
     2. Given more time we can try [self-supervised methods](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html) to learn better representations from the data(Currently, I am working on this for 1 month in my current internship) and I am sure, It would have given much better result.
     3. I think I may also experimented with K-fold cross validation and pseudo labels because I have experimented with this on Kaggle for a image classification competition.
     4. Some experimentation with the augmentation and preprocesssing can also work.
-    5. We can also try super resolution to increase size of image because the size of image was very smalll, so that network can work learn better features.
+    5. We can also use attention to make model learn better representation by focusing on more differentiating features or we can also use senets(squeeze and excitation networks).
+    6. We can also try super resolution to increase size of image because the size of image was very smalll, so that network can work learn better features.
 3. Trained model and code snippet for inference:
 
     ```data_preprocess(pulse).ipynb :```  It includes code for matching variant with family and then craeting dataset with folder name as labels.

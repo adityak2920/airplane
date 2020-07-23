@@ -13,6 +13,7 @@
     ```data_preprocess(pulse).ipynb :```  It includes code for matching variant with family and then craeting dataset with folder name as labels.
     
     ```model_training.ipynb:``` It includes code for training and all the experiments that I have done.
+    
     ```inference.ipynb:``` Code snnipet for doing inference using fastai learner or pytorch model on single image or on a folder of image.
     
     **Note: Please use "pure_model.pth", "pure_pyfast.pth" or "air_learner.pkl" for inference**

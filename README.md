@@ -9,8 +9,13 @@
     4. Some experimentation with the augmentation and preprocesssing can also work.
     5. We can also try super resolution to increase size of image because the size of image was very smalll, so that network can work learn better features.
 3. Trained model and code snippet for inference:
+
     ```data_preprocess(pulse).ipynb :```  It includes code for matching variant with family and then craeting dataset with folder name as labels.
+    
     ```model_training.ipynb:``` It includes code for training and all the experiments that I have done.
+    ```inference.ipynb:``` Code snnipet for doing inference using fastai learner or pytorch model on single image or on a folder of image.
+    
+    **Note: Please use "pure_model.pth", "pure_pyfast.pth" or "air_learner.pkl" for inference**
 4. Code along with steps to reproduce the results: I have included ```requirements.txt``` for the libraries necessary to run these notebooks. You can directly run each cell to reproduce each result.
 
 The models are trained on Kaggle, so you can also check the notebook [here](https://www.kaggle.com/adityakumar01/kernel5fcffdd867?scriptVersionId=39385725)

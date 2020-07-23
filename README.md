@@ -15,7 +15,7 @@
     
     ```model_training.ipynb:``` It includes code for training and all the experiments that I have done.
     
-    ```inference.ipynb:``` Code snnipet for doing inference using fastai learner or pytorch model on single image or on a folder of image.
+    ```inference.ipynb:``` Code snnipet for doing inference using fastai learner or pytorch model on a single image or on folder containing images.
     
     **Note: Please use "pure_model.pth", "pure_pyfast.pth" or "air_learner.pkl" for inference**
 4. Code along with steps to reproduce the results: I have included ```requirements.txt``` for the libraries necessary to run these notebooks. You can directly run each cell to reproduce each result.
